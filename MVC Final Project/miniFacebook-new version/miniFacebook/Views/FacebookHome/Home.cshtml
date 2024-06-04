@@ -1,0 +1,64 @@
+﻿@model miniFacebook.view_Models.HomeModel
+
+<partial name="_navbarpartial" model="Model"></partial>
+
+@{
+    <div class="container-fluid " style="margin-top:130px">
+        <div class="row justify-content-evenly">
+            <div class="col">
+                <!-- Content for the first column -->
+
+            </div>
+
+            <div class="col-8">
+                <!-- Add new post card -->
+
+                <div class="createpost mt-2" style="width: 100%;">
+                    <h4 class="text-center">Create Post</h4>
+                    <hr />
+                    <form asp-controller="FacebookHome" asp-action="addpost" method="post">
+            <textarea rows="5" id="post"  class="txtarea " style="border:none;width:87%" placeholder="What's on your mind?" required></textarea>
+                        <input type="text" id="postValue" name="postValue" style="display:none;">
+            <button type="submit" name="addpost" id="addpost" class="btn btn-primary addpost-home" disabled="" >Post</button>
+                    </form>
+                </div>
+
+
+
+
+                
+                
+                    <partial name="_postCardPartial" model="@Model" />
+                
+
+            </div>
+
+            <div class="col-2">
+                <!-- Content for the second column -->
+
+            </div>
+        </div>
+ 
+    </div>
+    }
+           <script>
+    // Get the textarea, hidden input, and the button
+    const textarea = document.getElementById('post');
+    const hiddenInput = document.getElementById('postValue');
+    const addButton = document.getElementById('addpost');
+
+    // Add event listener to textarea
+    textarea.addEventListener('input', function () {
+        // Check if textarea has value
+        if (textarea.value.trim() !== '') {
+            // Enable the button
+            addButton.removeAttribute('disabled');
+            hiddenInput.value = textarea.value.trim();
+            console.log(hiddenInput.value)
+
+        } else {
+            // Disable the button if textarea is empty
+            addButton.setAttribute('disabled', 'true');
+        }
+    });
+</script>   

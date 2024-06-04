@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\miniFacebook.bundle.scp.css",
+      "PackagePath": "staticwebassets\\miniFacebook.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\css\\navRegestier.css",
+      "PackagePath": "staticwebassets\\css\\navRegestier.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\ahmed.jpg",
+      "PackagePath": "staticwebassets\\images\\ahmed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\bio.png",
+      "PackagePath": "staticwebassets\\images\\bio.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\birthdate.png",
+      "PackagePath": "staticwebassets\\images\\birthdate.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\fb.png",
+      "PackagePath": "staticwebassets\\images\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\fbbdy.png",
+      "PackagePath": "staticwebassets\\images\\fbbdy.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\fullname.png",
+      "PackagePath": "staticwebassets\\images\\fullname.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\gender.png",
+      "PackagePath": "staticwebassets\\images\\gender.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\img3.jpg",
+      "PackagePath": "staticwebassets\\images\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\img4.png",
+      "PackagePath": "staticwebassets\\images\\img4.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\images\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\newLogin.png",
+      "PackagePath": "staticwebassets\\images\\newLogin.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\profile.png",
+      "PackagePath": "staticwebassets\\images\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\updateinfo.png",
+      "PackagePath": "staticwebassets\\images\\updateinfo.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\images\\yosra.jpg",
+      "PackagePath": "staticwebassets\\images\\yosra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Downloads\\MVC\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.miniFacebook.props",
+      "PackagePath": "build\\miniFacebook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.miniFacebook.props",
+      "PackagePath": "buildMultiTargeting\\miniFacebook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.miniFacebook.props",
+      "PackagePath": "buildTransitive\\miniFacebook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.miniFacebook.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

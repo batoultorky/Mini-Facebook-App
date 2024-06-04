@@ -1,0 +1,129 @@
+﻿@model HomeModel 
+
+<partial name="_navbarpartial" model="@Model"></partial>
+<header>
+<!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white" "
+    <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3">
+            <div class="usercontainer mb-5">
+                    <img class="userphoto" src="@ViewBag.DisplayUser.photo" />
+                    <h5 class="ms-3 fs-3">@ViewBag.DisplayUser.UserName</h5>
+            </div>
+
+                <div class="list-group-item list-group-item-action py-2 ripple"><img class="fas fa-lock fa-fw me-3" src="/images/fullname.png" /> <span>@ViewBag.DisplayUser.fullname</span></div>
+                <div class="list-group-item list-group-item-action py-2 ripple"><img class="fas fa-lock fa-fw me-3" src="/images/gender.png" /> <span>@ViewBag.DisplayUser.gender</span></div>
+                @if (ViewBag.DisplayUser.birthDate != null)
+            {
+                    <div class="list-group-item list-group-item-action py-2 ripple"><img class="fas fa-lock fa-fw me-3" src="/images/birthdate.png" /> <span>@ViewBag.DisplayUser.birthDate</span></div>
+            }
+                @if (ViewBag.DisplayUser.bio != null)
+            {
+                    <div class="list-group-item list-group-item-action py-2 ripple"><img class="fas fa-lock fa-fw me-3" src="/images/bio.png" /> <span>@ViewBag.DisplayUser.bio</span></div>
+            }
+        </div>
+    </div>
+</nav>
+<!-- Sidebar -->
+
+</header>
+<!--Main layout-->
+<main  style="margin-top:7vh;">
+    <div class="container other-profile pt-4 ">
+        @{
+            // <div class="createpost">
+            //     <h4 class="text-center">Create Post</h4>
+            //     <hr />
+            //     <form asp-controller="profile" asp-action="addpost" method="post">
+            //         <textarea rows="5" cols="65" id="post" class="txtarea" style="border:none" placeholder="What's on your mind?"></textarea>
+            //         <input type="text" id="postValue" name="postValue" style="display:none;">
+            //         <button type="submit" name="addpost" id="addpost" class="btn btn-primary addpost" disabled="">Post</button>
+            //     </form>
+            // </div>
+            foreach (var p in Model.allPost)
+            {
+                
+                <div class="oldPost ">
+                    <div class=" d-flex justify-content-between">
+                        <div class="usercontainer">
+                            <img class="userphotopost"  src="@ViewBag.DisplayUser.photo" />
+                            <h5 class="ms-3 mt-2 fs-5">@ViewBag.DisplayUser.UserName</h5>
+                        </div>
+                        @{
+                            var timeDiff = ViewBag.Now - p.date;
+                            string timeAgo;
+                            if (timeDiff.TotalDays >= 1)
+                            {
+                                timeAgo = $"{(int)timeDiff.TotalDays} day{(timeDiff.TotalDays >= 2 ? "s" : "")} ago";
+                            }
+                            else if (timeDiff.TotalHours >= 1)
+                            {
+                                timeAgo = $"{(int)timeDiff.TotalHours} hour{(timeDiff.TotalHours >= 2 ? "s" : "")} ago";
+                            }
+                            else if (timeDiff.TotalMinutes >= 1)
+                            {
+                                timeAgo = $"{(int)timeDiff.TotalMinutes} minute{(timeDiff.TotalMinutes >= 2 ? "s" : "")} ago";
+                            }
+                            else
+                            {
+                                timeAgo = "just now";
+                            }
+                        }
+                        <p class="mt-3">@timeAgo</p>
+                    </div>
+                    <hr />
+                    <p>@p.body</p>
+                </div>
+            }
+        }
+    </div>
+</main>
+
+<!--Main layout-->
+<script>
+
+    var flag = "false";
+    function toggleInputFile() {
+        if (flag == "false") {
+            var inputFile = document.querySelector('input[type="file"]');
+            inputFile.style.display = 'block';
+            var savebutton = document.getElementById('saveimage')
+            savebutton.style.display = 'block';
+            var uploadbutton = document.getElementById('uploadimage')
+            uploadbutton.style.display = 'none';
+            flag = "true";
+        }
+        else {
+            var inputFile = document.querySelector('input[type="file"]');
+            inputFile.style.display = 'none';
+            var savebutton = document.getElementById('saveimage')
+            savebutton.style.display = 'none';
+            var uploadbutton = document.getElementById('uploadimage')
+            uploadbutton.style.display = 'block';
+            flag = "false";
+        }
+
+    }
+    // Get the textarea, hidden input, and the button
+    const textarea = document.getElementById('post');
+    const hiddenInput = document.getElementById('postValue');
+    const addButton = document.getElementById('addpost');
+
+    // Add event listener to textarea
+    textarea.addEventListener('input', function () {
+        // Check if textarea has value
+        if (textarea.value.trim() !== '') {
+            // Enable the button
+            addButton.removeAttribute('disabled');
+            hiddenInput.value = textarea.value.trim();
+            console.log(hiddenInput.value)
+
+        } else {
+            // Disable the button if textarea is empty
+            addButton.setAttribute('disabled', 'true');
+        }
+    });
+
+</script>
+
+

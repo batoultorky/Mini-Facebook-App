@@ -1,0 +1,158 @@
+﻿@model miniFacebook.view_Models.HomeModel;
+@using miniFacebook.Models;
+
+@{
+    
+    List<Applicationuser> allusermoder = new List<Applicationuser>();
+
+
+
+            <nav class="bg-white d-flex align-items-center fixed-top shadow" style="height: 10vh; z-index: 5">
+                <div class="container-fluid">
+                    <div class="row align-items-center p-3">
+                        <!-- Logo + Search -->
+                        <div class="col-3 d-flex align-items-center" style="font-size: 3rem">
+                                <!-- Facebook icon -->
+                                <i class="bi bi-facebook text-primary" style="font-size: 3rem"></i>
+                                <!-- Search bar -->
+                                <div class="input-group ms-2 ">
+                                    <!-- Placeholder trigger for the dropdown menu -->
+                                    <span class="input-group-prepend d-none d-lg-block dropdown" type="button" id="searchMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <!-- Search icon and text -->
+                                        <div class="input-group-text rounded-pill">
+                                            <!-- Search icon -->
+                                            <i class="bi bi-search me-2"></i>
+                                            <!-- Text indicating Facebook Search -->
+                                            <p class="m-0 fs-7">Facebook Search</p>
+                                        </div>
+                                    </span>
+
+                                    <!-- Dropdown menu -->
+                                                            
+                                    <table class="dropdown-menu border-0 shadow p-2 overflow-auto" aria-labelledby="searchMenu" style="max-height:300px; z-index:10000;">
+                                        <thead>
+                                        <th>
+                                                        <input id="userInput" class="rounded-pill border-0 bg-gray dropdown-item" type="text" placeholder="Facebook search" />
+
+
+                                        </th>
+                                        </thead>
+                                            <tbody id="alluser" >
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                        </div>
+
+                        <!-- Nav icons -->
+                        <div class="col-9 d-none d-xl-flex justify-content-end align-items-center">
+                    <!-- Home -->
+                    <div class="mx-1 nav__btn">
+                        <a asp-action="Home" asp-controller="FacebookHome" class=" btn px-1 py-0" style="">
+                            <i class="bi bi-house-door " id="homeIcon" style="font-size: 2rem; color:#b8babb;"></i>
+                        </a>
+                    </div>
+                    <!-- Profile -->
+                    <div class="mx-1 nav__btn">
+                        <a asp-action="profile" asp-controller="profile" class=" btn ps-1 pe-2 py-0" style="">
+                            <i class="bi bi-file-person " id="homeIcon" style="font-size: 2rem; color:#b8babb;"></i>
+                        </a>
+                    </div>
+                        <div class="dropdown pt-3" style="align-content:center">
+                            <div class="d-flex">
+                                <div class="d-flex align-item-center">
+                                    <img src="@Model.currentUser.photo" class="rounded-circle me-2" style="width:35px; height:35px; object-fit:cover">
+                                    <p class="p-0 mt-2">@Model.currentUser.fullname</p>
+                                </div>
+                                <button class=" py-0 mt-3 dropdown-toggle d-flex " type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                </button>
+                                <div class="dropdown-menu bg-gray" aria-labelledby="dropdownMenu2">
+                                    <a asp-action="Register" asp-controller="Account" class="btn dropdown-item">Log out</a>
+                                    <a asp-action="changePassword" asp-controller="Setting" class="btn dropdown-item">Settings</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- Logout -->
+
+                    </div>
+                </div>
+            </nav>
+
+
+    @section scripts {
+    <!-- Other scripts -->
+    }
+
+    <!-- Move script block outside of Razor sections -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+            // Function to generate HTML for user list item
+            function userListItem(id, username, photo) {
+                return `
+                        <td class="my-4">
+                            <a href="#" class="profile-link" data-id="${id}">
+                                <div class="alert fade show dropdown-item p-1 m-0 d-flex align-items-center justify-content-between" role="alert">
+                                    <div class="d-flex align-items-center">
+                                        <img src="${photo}" alt="avatar" class="rounded-circle me-2" style="width: 35px; height: 35px; object-fit: cover" />
+                                        <p class="m-0">${username}</p>
+                                    </div>
+                                    <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            </a>
+                        </td>
+                    `;
+            }
+
+            // Function to handle keyup event
+            function handleKeyUp() {
+                // Get the value entered by the user
+                var value = document.getElementById("userInput").value;
+                var userDropdown = document.getElementById("alluser");
+                userDropdown.innerHTML = '';
+
+                // Make AJAX request to get filtered users
+                $.ajax({
+                    url: '/FacebookHome/GetFilteredUsers',
+                    data: { value: value },
+                    success: function (response) {
+                        // Iterate over response and append each user to userDropdown
+                        response.forEach(function (item) {
+                            var userHtml = userListItem(item.id, item.userName, item.photo);
+                            userDropdown.insertAdjacentHTML('beforeend', userHtml);
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error); // Log any errors to the console
+                    }
+                });
+            }
+
+            // Event delegation for click event on dynamically generated anchor tags
+            $(document).on('click', '.profile-link', function (event) {
+                event.preventDefault(); // Prevent the default action of the anchor tag
+                var userId = $(this).data('id'); // Get the user ID from data attribute
+                // Perform any action you want with the user ID, like redirecting to the user's profile page
+                window.location.href = '/Profile/getprofilebyid?id=' + userId;
+            });
+
+            // Attach keyup event listener to the input field
+            $('#userInput').on('keyup', handleKeyUp);
+
+        // var homeIcon = document.getElementById('homeIcon');
+        // var profileIcon = document.getElementById('profileIcon');
+            
+        // function chooseHomeIcon(){
+        //     profileIcon.classList.remove('text-primary');
+        //     homeIcon.classList.add('text-primary');
+        // }
+        // function chooseProfileIcon() {
+        //     homeIcon.classList.remove('text-primary');
+        //     profileIcon.classList.add('text-primary');
+        // }
+        </script>
+
+}

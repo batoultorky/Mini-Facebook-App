@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|c:\\users\\bs\\downloads\\mvc final project\\minifacebook-new version\\minifacebook\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\minifacebook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|c:\\users\\bs\\downloads\\mvc final project\\minifacebook-new version\\minifacebook\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|c:\\users\\bs\\downloads\\mvc final project\\minifacebook-new version\\minifacebook\\views\\profile\\updateinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\views\\profile\\updateinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\minifacebook\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\minifacebook\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\minifacebook\\views\\facebookhome\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\views\\facebookhome\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|c:\\users\\bs\\downloads\\mvc final project\\minifacebook-new version\\minifacebook\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\minifacebook\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E90644C-E8E7-4877-AEEF-2819F56B05BF}|miniFacebook\\miniFacebook.csproj|solutionrelative:minifacebook\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "miniFacebook\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "miniFacebook\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T13:59:41.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingController.cs",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Controllers\\SettingController.cs",
+              "RelativeDocumentMoniker": "miniFacebook\\Controllers\\SettingController.cs",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Controllers\\SettingController.cs",
+              "RelativeToolTip": "miniFacebook\\Controllers\\SettingController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwCsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:56:56.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "updateinfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Profile\\updateinfo.cshtml",
+              "RelativeDocumentMoniker": "miniFacebook\\Views\\Profile\\updateinfo.cshtml",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Profile\\updateinfo.cshtml",
+              "RelativeToolTip": "miniFacebook\\Views\\Profile\\updateinfo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T13:44:20.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "miniFacebook\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "miniFacebook\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAEgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:08:04.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "miniFacebook\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "miniFacebook\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwCwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T12:07:23.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "miniFacebook\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "miniFacebook\\Views\\Account\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T12:07:26.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\FacebookHome\\Home.cshtml",
+              "RelativeDocumentMoniker": "miniFacebook\\Views\\FacebookHome\\Home.cshtml",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\FacebookHome\\Home.cshtml",
+              "RelativeToolTip": "miniFacebook\\Views\\FacebookHome\\Home.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T12:06:07.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "profile.css",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\css\\profile.css",
+              "RelativeDocumentMoniker": "miniFacebook\\wwwroot\\css\\profile.css",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\wwwroot\\css\\profile.css",
+              "RelativeToolTip": "miniFacebook\\wwwroot\\css\\profile.css",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-25T11:14:25.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Profile\\profile.cshtml",
+              "RelativeDocumentMoniker": "miniFacebook\\Views\\Profile\\profile.cshtml",
+              "ToolTip": "C:\\Users\\BS\\Downloads\\MVC Final Project\\miniFacebook-new version\\miniFacebook\\Views\\Profile\\profile.cshtml",
+              "RelativeToolTip": "miniFacebook\\Views\\Profile\\profile.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwDAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T12:02:53.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

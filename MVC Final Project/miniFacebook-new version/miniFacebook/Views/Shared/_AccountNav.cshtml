@@ -1,0 +1,54 @@
+﻿@model miniFacebook.view_Models.LoginModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - miniFacebook</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/navRegestier.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/miniFacebook.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar ">
+                @* <div class="container-fluid"> *@
+                    <img class="logo" src="~/images/fb.png">
+            
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <form asp-action="Login" class="login_form">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class=" container-input email">
+                             <label asp-for="Email" class="font-email" ></label> 
+                                <input asp-for="Email" class="email">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        <div class=" container-input password">
+                            <label asp-for="Password" class="font-password"></label> 
+                                <input asp-for="Password" class="password" >
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        <button type="submit" class="login_btn">Login</button>
+                        </form>
+                    </div>
+    
+                       
+         
+            </nav>
+        </header>
+    </div>
+    <div>
+
+        @RenderBody()
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

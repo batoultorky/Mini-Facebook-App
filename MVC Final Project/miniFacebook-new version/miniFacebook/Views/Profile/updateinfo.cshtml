@@ -1,0 +1,60 @@
+﻿ @model Applicationuser
+
+<div class="row justify-content-start wrapper">
+    <div class="col-md-10 d-flex">
+        <img src="~/images/updateinfo.png" width="500" class="me-5"/>
+        <form asp-action="updateinfo" asp-controller="profile" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+       <div class="infocard"> 
+            <div class="form-group">
+                <label asp-for="fullname" class="control-label mb-1 mt-1">Full Name</label> 
+                <input asp-for="fullname" class="form-control ms-2 mb-1" />
+            </div>
+                <span asp-validation-for="fullname" class="text-danger invalidFullName mb-3"></span>
+ 
+            <div class="form-group mb-3">
+                <label class="control-label mb-3">Gender</label>
+                    <div class="mb-3" style="width:50%">
+                <div class="form-check form-check-inline">
+                    <input type="radio" asp-for="gender" value="Male" class="form-check-input" id="genderMale" />
+                    <label class="form-check-label" for="genderMale">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" asp-for="gender" value="Female" class="form-check-input" id="genderFemale" />
+                    <label class="form-check-label" for="genderFemale">Female</label>
+                </div>
+                    </div>
+                <span asp-validation-for="gender" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="birthDate" class="control-label mb-3">Birth Date</label>
+                <input type="date" asp-for="birthDate" class="form-control mb-3" />
+                <span asp-validation-for="birthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bio" class="control-label">Bio</label>
+                <input asp-for="bio" class="form-control " />
+                <span asp-validation-for="bio" class="text-danger"></span>
+            </div>
+                <div class="row justify-content-end">
+                    <div class="col-4 me-3 mt-5">
+                        <input type="submit" value="Save" class="btn btn-primary" style="width: 120px; height: 40px;" />
+                    </div>
+@*                     <div class="col-6">
+                        <a asp-controller="profile" asp-action="profile" class="btn btn-danger" style="width: 120px; height: 40px;">Back to profile</a>
+                    </div> *@
+                </div>
+       </div>
+ 
+     
+        </form>
+        </div>
+        </div>
+ 
+        @section Scripts {
+            @{
+                await Html.RenderPartialAsync("_ValidationScriptsPartial");
+            }
+        }
+

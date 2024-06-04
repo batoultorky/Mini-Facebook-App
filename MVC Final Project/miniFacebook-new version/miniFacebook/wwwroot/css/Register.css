@@ -1,0 +1,95 @@
+﻿body {
+margin:0%;
+padding:0%;
+
+
+}
+.logo_body {
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+    .logo_body .like_font {
+        font-family: arial;
+        font-size: 25px;
+        margin-left: -30px;
+    }
+
+    .logo_body .font1 {
+        color: #083987;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    .all_body {
+    height: 95vh;
+    width: 120vw;
+    top: 80px;
+    margin-left:-200px;
+    background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);
+ 
+    font-family: verdana;
+    }
+.signup_body {
+    font-family: arial;
+    position: absolute;
+    left: 57%;
+}
+.login_form {
+    display: flex;
+    position: absolute;
+    font-family: verdana;
+    left: 58%;
+    top: 15px;
+}
+.signup_body .acc_crt {
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.signup_body .free_hint {
+    margin: -20px 5px;
+}
+.signup_body .signup_form .form-group Inputclass {
+    margin-top: 50vh;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.signup_body .signup_form .form-group .Gender {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+.signup {
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #006117;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#6fad5a, #66a150, #60974C);
+}
+
+    .signup_body .signup_form .form-group .signup:hover {
+        background: linear-gradient(#74b85e, #598B45);
+    
+}
+
+ .agreement {
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+}
+.form-group {
+    margin-top:3vh;
+}
